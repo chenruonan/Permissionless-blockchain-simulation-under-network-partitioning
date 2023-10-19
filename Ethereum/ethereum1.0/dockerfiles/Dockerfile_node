@@ -1,0 +1,27 @@
+FROM ubuntu:20.04
+
+RUN mkdir -p /usr/local/myproj/ethereumTest/
+# project
+COPY ./localNet1/ /usr/local/myproj/ethereumTest/localNet1
+
+WORKDIR /usr/local/myproj/ethereumTest/localNet1
+
+# binary and install jq
+COPY ./geth /usr/bin/
+COPY ./lighthouse /usr/bin/
+COPY ./lcli /usr/bin/
+COPY ./bootnode /usr/bin/
+RUN apt-get update && apt-get install -y curl
+RUN apt-get install -y jq
+# RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# RUN source $HOME/.cargo/env
+RUN chmod 777 /usr/local/myproj/ethereumTest/localNet1/*.sh
+RUN chmod 777 /usr/bin/geth
+RUN chmod 777 /usr/bin/lighthouse
+RUN chmod 777 /usr/bin/lcli
+RUN chmod 777 /usr/bin/bootnode
+RUN export PATH=$PATH:/usr/bin
+
+ENTRYPOINT ["/usr/local/myproj/ethereumTest/localNet1/node_start.sh"]
+CMD ["-n","node_num","-e","el_bootnode_address","-i","ip_address","-b","bootnode_enr","genesis.json"]
+
