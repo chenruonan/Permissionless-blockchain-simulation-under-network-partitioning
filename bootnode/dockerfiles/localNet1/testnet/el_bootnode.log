@@ -1,5 +1,0 @@
-./el_bootnode.sh 192.168.0.120 >> /usr/local/myproj/ethereumTest/localNet1/testnet/el_bootnode.log 2>&1
-enode://51ea9bb34d31efc3491a842ed13b8cab70e753af108526b57916d716978b380ed713f4336a80cdb85ec2a115d5a8c0ae9f3247bed3c84d3cb025c6bab311062c@192.168.0.120:0?discport=30301
-Note: you're using cmd/bootnode, a developer tool.
-We recommend using a regular node as bootstrap node for production deployments.
-INFO [10-16|08:37:44.465] New local node record                    seq=1,697,445,464,463 id=e318d6f9e3d8c475 ip=<nil> udp=0 tcp=0
