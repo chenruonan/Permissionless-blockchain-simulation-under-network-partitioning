@@ -1,0 +1,348 @@
+INFO [01-23|10:53:09.024] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-23|10:53:09.024] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [01-23|10:53:09.025] Set global gas cap                       cap=25000000
+INFO [01-23|10:53:09.025] Allocated cache and file handles         database=/usr/local/myproj/ethpowLab/datadir_1/geth/chaindata cache=16.00MiB handles=16
+INFO [01-23|10:53:09.029] Writing custom genesis block 
+INFO [01-23|10:53:09.036] Persisted trie from memory database      nodes=505 size=70.97KiB time=1.684174ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=-82.00B
+INFO [01-23|10:53:09.036] Successfully wrote genesis state         database=chaindata hash="a7ca5b…467b33"
+INFO [01-23|10:53:09.036] Allocated cache and file handles         database=/usr/local/myproj/ethpowLab/datadir_1/geth/lightchaindata cache=16.00MiB handles=16
+INFO [01-23|10:53:09.041] Writing custom genesis block 
+INFO [01-23|10:53:09.047] Persisted trie from memory database      nodes=505 size=70.97KiB time=2.08721ms  gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=-82.00B
+INFO [01-23|10:53:09.047] Successfully wrote genesis state         database=lightchaindata hash="a7ca5b…467b33"
+INFO [01-23|10:53:09.085] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-23|10:53:09.085] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [01-23|10:53:09.086] Set global gas cap                       cap=25000000
+Your new account is locked with a password. Please give a password. Do not forget this password.
+!! Unsupported terminal, password will be echoed.
+Password: 
+Repeat password: 
+Address: {123463a4b065722e99115d6c222f267d9cabb524}
+completed init in datadir
+INFO [01-23|10:53:10.716] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-23|10:53:10.716] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+INFO [01-23|10:53:10.716] Global gas cap disabled 
+INFO [01-23|10:53:10.716] Allocated trie memory caches             clean=256.00MiB dirty=256.00MiB
+INFO [01-23|10:53:10.716] Allocated cache and file handles         database=/usr/local/myproj/ethpowLab/datadir_1/geth/chaindata cache=512.00MiB handles=32767
+INFO [01-23|10:53:10.738] Opened ancient database                  database=/usr/local/myproj/ethpowLab/datadir_1/geth/chaindata/ancient
+INFO [01-23|10:53:10.738] Initialised chain configuration          config="{ChainID: 4242 Homestead: 0 DAO: <nil> DAOSupport: false EIP150: 0 EIP155: 0 EIP158: 0 Byzantium: 0 Constantinople: 0 Petersburg: 0 Istanbul: 0, Muir Glacier: <nil>, YOLO v2: <nil>, Engine: ethash}"
+INFO [01-23|10:53:10.738] Disk storage enabled for ethash caches   dir=/usr/local/myproj/ethpowLab/datadir_1/geth/ethash count=3
+INFO [01-23|10:53:10.738] Disk storage enabled for ethash DAGs     dir=/root/.ethash count=2
+INFO [01-23|10:53:10.738] Initialising Ethereum protocol           versions="[65 64 63]" network=4242 dbversion=<nil>
+WARN [01-23|10:53:10.738] Upgrade blockchain database version      from=<nil> to=8
+INFO [01-23|10:53:10.739] Loaded most recent local header          number=0 hash="a7ca5b…467b33" td=699050 age=1y4mo3w
+INFO [01-23|10:53:10.739] Loaded most recent local full block      number=0 hash="a7ca5b…467b33" td=699050 age=1y4mo3w
+INFO [01-23|10:53:10.739] Loaded most recent local fast block      number=0 hash="a7ca5b…467b33" td=699050 age=1y4mo3w
+INFO [01-23|10:53:10.739] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [01-23|10:53:10.739] Starting peer-to-peer node               instance=Geth/v1.9.25-stable-e7872729/linux-amd64/go1.15.6
+INFO [01-23|10:53:10.746] New local node record                    seq=1 id=7314a7ad58657e71 ip=127.0.0.1 udp=7000 tcp=7000
+INFO [01-23|10:53:10.747] Started P2P networking                   self=enode://47d2400d320945c6784a56c11149223f0d88a9ee3b5186d5a475d403f6727d2c2898b92293544c216c310b733741df75934ab1f3797c2c97c1052548aeebd7e1@127.0.0.1:7000
+ERROR[01-23|10:53:10.747] Unavailable modules in HTTP API list     unavailable=[engine] available="[admin debug web3 eth txpool personal ethash miner net]"
+INFO [01-23|10:53:10.747] HTTP server started                      endpoint=[::]:6000 cors= vhosts=0.0.0.0
+INFO [01-23|10:53:10.747] Transaction pool price threshold updated price=1000000000
+INFO [01-23|10:53:10.747] Updated mining threads                   threads=2
+INFO [01-23|10:53:10.747] Transaction pool price threshold updated price=1000000000
+INFO [01-23|10:53:10.747] Etherbase automatically configured       address=0x123463a4B065722E99115D6c222f267d9cABb524
+INFO [01-23|10:53:10.747] Commit new mining work                   number=1 sealhash="a3d02e…e918b1" uncles=0 txs=0 gas=0 fees=0 elapsed="132.354µs"
+INFO [01-23|10:53:11.515] Block synchronisation started 
+INFO [01-23|10:53:11.515] Mining aborted due to sync 
+INFO [01-23|10:53:11.673] Downloader queue stats                   receiptTasks=0 blockTasks=0 itemSize=57.10B throttle=8192
+INFO [01-23|10:53:11.774] New local node record                    seq=2 id=7314a7ad58657e71 ip=192.168.1.1 udp=7000 tcp=7000
+INFO [01-23|10:53:13.285] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=1.611s      mgasps=0.000 number=1 hash="50dc7b…e46098" dirty=1.37KiB
+INFO [01-23|10:53:13.285] Chain reorg detected                     number=0 hash="a7ca5b…467b33" drop=1 dropfrom="50dc7b…e46098" add=1 addfrom="f864de…19b601"
+INFO [01-23|10:53:13.285] Successfully sealed new block            number=1 sealhash="a3d02e…e918b1" hash="f864de…19b601" elapsed=2.537s
+INFO [01-23|10:53:13.285] 🔨 mined potential block                  number=1 hash="f864de…19b601"
+INFO [01-23|10:53:13.289] Commit new mining work                   number=2 sealhash="1a19c9…441d70" uncles=1 txs=0 gas=0 fees=0 elapsed="106.983µs"
+INFO [01-23|10:53:13.289] Commit new mining work                   number=2 sealhash="1a19c9…441d70" uncles=1 txs=0 gas=0 fees=0 elapsed="103.194µs"
+INFO [01-23|10:53:13.402] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.729ms    mgasps=0.000 number=1 hash="b3297d…d37bb5" dirty=4.70KiB
+INFO [01-23|10:53:13.403] Commit new mining work                   number=2 sealhash="5cfeae…ccbce7" uncles=2 txs=0 gas=0 fees=0 elapsed="129.703µs"
+INFO [01-23|10:53:13.442] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=38.783ms    mgasps=0.000 number=1 hash="c7fe92…2832e0" dirty=6.27KiB
+INFO [01-23|10:53:13.448] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.569ms     mgasps=0.000 number=1 hash="d59514…56c545" dirty=7.94KiB
+INFO [01-23|10:53:13.453] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.716ms     mgasps=0.000 number=1 hash="83e6e8…0ecaaf" dirty=9.70KiB
+INFO [01-23|10:53:13.535] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.116ms     mgasps=0.000 number=1 hash="be3c0a…f804ff" dirty=11.37KiB
+INFO [01-23|10:53:13.632] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=20.798ms    mgasps=0.000 number=1 hash="69dd2f…7c5287" dirty=12.95KiB
+INFO [01-23|10:53:13.686] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=48.245ms    mgasps=0.000 number=1 hash="639c65…ca344a" dirty=14.55KiB
+INFO [01-23|10:53:13.696] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=5.453ms     mgasps=0.000 number=1 hash="7d58c5…2a946e" dirty=16.07KiB
+INFO [01-23|10:53:13.700] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.986ms     mgasps=0.000 number=1 hash="43ecb5…f12474" dirty=17.67KiB
+INFO [01-23|10:53:13.867] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=3.903ms     mgasps=0.000 number=1 hash="8234d8…acf71a" dirty=19.25KiB
+INFO [01-23|10:53:13.925] Chain reorg detected                     number=0 hash="a7ca5b…467b33" drop=1 dropfrom="f864de…19b601" add=2 addfrom="c59798…99e457"
+INFO [01-23|10:53:13.925] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.457ms    mgasps=0.000 number=2 hash="c59798…99e457" dirty=22.32KiB
+INFO [01-23|10:53:13.926] Commit new mining work                   number=3 sealhash="8def2b…d8a488" uncles=2 txs=0 gas=0 fees=0 elapsed="152.403µs"
+INFO [01-23|10:53:14.008] Chain reorg detected                     number=0 hash="a7ca5b…467b33" drop=2 dropfrom="c59798…99e457" add=2 addfrom="1db82d…87d2c1"
+INFO [01-23|10:53:14.009] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=4.308ms     mgasps=0.000 number=2 hash="1db82d…87d2c1" dirty=23.63KiB
+INFO [01-23|10:53:14.009] Commit new mining work                   number=3 sealhash="a7e5aa…b2bf5e" uncles=2 txs=0 gas=0 fees=0 elapsed="164.392µs"
+INFO [01-23|10:53:14.526] Chain reorg detected                     number=0 hash="a7ca5b…467b33" drop=2 dropfrom="1db82d…87d2c1" add=2 addfrom="51b7fd…cebc16"
+INFO [01-23|10:53:14.526] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=48.594ms    mgasps=0.000 number=2 hash="51b7fd…cebc16" dirty=27.23KiB
+INFO [01-23|10:53:14.527] Commit new mining work                   number=3 sealhash="3f89ac…bacdf3" uncles=2 txs=0 gas=0 fees=0 elapsed="321.179µs"
+INFO [01-23|10:53:15.607] Chain reorg detected                     number=0 hash="a7ca5b…467b33" drop=2 dropfrom="51b7fd…cebc16" add=3 addfrom="8d8e51…f17bfc"
+INFO [01-23|10:53:15.608] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.016ms    mgasps=0.000 number=3 hash="8d8e51…f17bfc" dirty=30.70KiB
+INFO [01-23|10:53:15.608] Commit new mining work                   number=4 sealhash="b42d30…5941d0" uncles=2 txs=0 gas=0 fees=0 elapsed="215.733µs"
+INFO [01-23|10:53:15.808] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.140ms    mgasps=0.000 number=4 hash="b3b69b…0a6dc4" dirty=33.44KiB
+INFO [01-23|10:53:15.808] Commit new mining work                   number=5 sealhash="a1e82f…669cc8" uncles=2 txs=0 gas=0 fees=0 elapsed="256.287µs"
+INFO [01-23|10:53:15.886] Generating DAG in progress               epoch=1 percentage=0 elapsed=4.122s
+INFO [01-23|10:53:16.008] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.196ms    mgasps=0.000 number=5 hash="0c9091…1a92f3" dirty=36.96KiB
+INFO [01-23|10:53:16.009] Commit new mining work                   number=6 sealhash="f6e935…3e2b99" uncles=2 txs=0 gas=0 fees=0 elapsed="300.635µs"
+INFO [01-23|10:53:16.239] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.519ms    mgasps=0.000 number=5 hash="791c17…73cf78" dirty=40.66KiB
+INFO [01-23|10:53:16.774] Chain reorg detected                     number=4 hash="b3b69b…0a6dc4" drop=1 dropfrom="0c9091…1a92f3" add=2 addfrom="e09ffb…273c81"
+INFO [01-23|10:53:16.774] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.899ms    mgasps=0.000 number=6 hash="e09ffb…273c81" dirty=43.50KiB
+INFO [01-23|10:53:16.774] Mining too far in the future             wait=2s
+INFO [01-23|10:53:17.348] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.878ms    mgasps=0.000 number=5 hash="04b539…93a828" dirty=45.98KiB
+INFO [01-23|10:53:17.677] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.496ms    mgasps=0.000 number=5 hash="5479fa…a24fc6" dirty=48.22KiB
+INFO [01-23|10:53:17.791] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.902ms    mgasps=0.000 number=5 hash="99c84a…a38ca4" dirty=49.79KiB
+INFO [01-23|10:53:17.993] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.793ms    mgasps=0.000 number=6 hash="85005e…6fb7c2" dirty=51.95KiB
+INFO [01-23|10:53:18.124] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.976ms    mgasps=0.000 number=6 hash="3af56e…74900e" dirty=54.25KiB
+INFO [01-23|10:53:18.335] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.726ms    mgasps=0.000 number=7 hash="4a1ae9…e26e99" dirty=57.65KiB
+INFO [01-23|10:53:18.349] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.997ms    mgasps=0.000 number=7 hash="37d933…7c320b" dirty=60.94KiB
+INFO [01-23|10:53:18.625] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.866ms    mgasps=0.000 number=6 hash="f31be0…c9d332" dirty=64.16KiB
+INFO [01-23|10:53:18.783] Commit new mining work                   number=7 sealhash="0be6c3…33c276" uncles=2 txs=0 gas=0 fees=0 elapsed=2.008s
+INFO [01-23|10:53:18.783] Commit new mining work                   number=8 sealhash="c6d023…075468" uncles=2 txs=0 gas=0 fees=0 elapsed="278.072µs"
+INFO [01-23|10:53:18.993] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=24.629ms    mgasps=0.000 number=8 hash="eb47e0…08d25c" dirty=67.27KiB
+INFO [01-23|10:53:18.993] Mining too far in the future             wait=2s
+INFO [01-23|10:53:19.303] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.656ms    mgasps=0.000 number=9 hash="3cdbb2…4db7fa" dirty=70.09KiB
+INFO [01-23|10:53:19.353] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.467ms    mgasps=0.000 number=8 hash="27a114…861065" dirty=72.60KiB
+INFO [01-23|10:53:19.494] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.257ms    mgasps=0.000 number=8 hash="3b6590…5fe60a" dirty=74.75KiB
+INFO [01-23|10:53:19.948] Chain reorg detected                     number=8 hash="eb47e0…08d25c" drop=1 dropfrom="3cdbb2…4db7fa" add=1 addfrom="2bc812…199ed6"
+INFO [01-23|10:53:19.948] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.016ms    mgasps=0.000 number=9 hash="2bc812…199ed6" dirty=77.36KiB
+INFO [01-23|10:53:20.059] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.738ms    mgasps=0.000 number=8 hash="5cae22…70394d" dirty=79.15KiB
+INFO [01-23|10:53:20.091] Generating DAG in progress               epoch=1 percentage=1 elapsed=8.327s
+INFO [01-23|10:53:20.465] Chain reorg detected                     number=5 hash="791c17…73cf78" drop=4 dropfrom="2bc812…199ed6" add=4 addfrom="f21fd1…673e4c"
+INFO [01-23|10:53:20.466] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=26.211ms    mgasps=0.000 number=9 hash="f21fd1…673e4c" dirty=82.12KiB
+INFO [01-23|10:53:20.538] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=48.277ms    mgasps=0.000 number=8 hash="004afb…3b95d9" dirty=84.15KiB
+INFO [01-23|10:53:20.690] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=27.912ms    mgasps=0.000 number=9 hash="794122…d0e80e" dirty=85.52KiB
+INFO [01-23|10:53:21.010] ⑂ block became an uncle                  number=1 hash="f864de…19b601"
+INFO [01-23|10:53:21.010] Commit new mining work                   number=9 sealhash="cec291…f50677" uncles=2 txs=0 gas=0 fees=0 elapsed=2.016s
+INFO [01-23|10:53:21.030] Commit new mining work                   number=10 sealhash="a921ec…b6b223" uncles=1 txs=0 gas=0 fees=0 elapsed=20.252ms
+INFO [01-23|10:53:21.030] Commit new mining work                   number=10 sealhash="a921ec…b6b223" uncles=1 txs=0 gas=0 fees=0 elapsed="306.454µs"
+INFO [01-23|10:53:21.031] Commit new mining work                   number=10 sealhash="a921ec…b6b223" uncles=1 txs=0 gas=0 fees=0 elapsed="198.027µs"
+INFO [01-23|10:53:21.110] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=187.098ms   mgasps=0.000 number=9  hash="24d077…e2fe9d" dirty=87.79KiB
+INFO [01-23|10:53:21.110] Commit new mining work                   number=10 sealhash="28a6bb…c296ea" uncles=2 txs=0 gas=0 fees=0 elapsed=79.498ms
+INFO [01-23|10:53:21.267] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.371ms    mgasps=0.000 number=8  hash="9012d7…4549cb" dirty=89.29KiB
+INFO [01-23|10:53:21.594] Chain reorg detected                     number=8  hash="27a114…861065" drop=1 dropfrom="f21fd1…673e4c" add=2 addfrom="b9042d…2d0ffe"
+INFO [01-23|10:53:21.594] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=15.811ms    mgasps=0.000 number=10 hash="b9042d…2d0ffe" dirty=92.08KiB
+INFO [01-23|10:53:21.594] Commit new mining work                   number=11 sealhash="09b94a…d26874" uncles=1 txs=0 gas=0 fees=0 elapsed="391.282µs"
+INFO [01-23|10:53:21.644] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=49.716ms    mgasps=0.000 number=10 hash="627f61…e6773b" dirty=94.11KiB
+INFO [01-23|10:53:22.063] Chain reorg detected                     number=5  hash="791c17…73cf78" drop=5 dropfrom="b9042d…2d0ffe" add=6 addfrom="0eb05c…c00ad2"
+INFO [01-23|10:53:22.063] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.056ms    mgasps=0.000 number=11 hash="0eb05c…c00ad2" dirty=97.24KiB
+INFO [01-23|10:53:22.064] Commit new mining work                   number=12 sealhash="76b599…a19dc4" uncles=2 txs=0 gas=0 fees=0 elapsed="417.508µs"
+INFO [01-23|10:53:22.103] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.530ms    mgasps=0.000 number=11 hash="6d02bf…0cb8e8" dirty=99.90KiB
+INFO [01-23|10:53:22.388] Chain reorg detected                     number=10 hash="627f61…e6773b" drop=1 dropfrom="0eb05c…c00ad2" add=2 addfrom="76eb36…f0b97b"
+INFO [01-23|10:53:22.388] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=24.197ms    mgasps=0.000 number=12 hash="76eb36…f0b97b" dirty=102.30KiB
+INFO [01-23|10:53:22.388] Mining too far in the future             wait=2s
+INFO [01-23|10:53:22.435] Chain reorg detected                     number=11 hash="6d02bf…0cb8e8" drop=1 dropfrom="76eb36…f0b97b" add=1 addfrom="9b9869…85ae55"
+INFO [01-23|10:53:22.435] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.022ms    mgasps=0.000 number=12 hash="9b9869…85ae55" dirty=105.54KiB
+INFO [01-23|10:53:22.749] Chain reorg detected                     number=10 hash="627f61…e6773b" drop=2 dropfrom="9b9869…85ae55" add=2 addfrom="298f57…484ad3"
+INFO [01-23|10:53:22.750] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.443ms    mgasps=0.000 number=12 hash="298f57…484ad3" dirty=107.93KiB
+INFO [01-23|10:53:22.816] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.338ms    mgasps=0.000 number=12 hash="fe10e8…07ed19" dirty=109.60KiB
+INFO [01-23|10:53:23.504] Chain reorg detected                     number=10 hash="627f61…e6773b" drop=2 dropfrom="298f57…484ad3" add=2 addfrom="275a28…5a0593"
+INFO [01-23|10:53:23.504] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.499ms    mgasps=0.000 number=12 hash="275a28…5a0593" dirty=112.07KiB
+INFO [01-23|10:53:23.647] Generating DAG in progress               epoch=1 percentage=2 elapsed=11.882s
+INFO [01-23|10:53:23.766] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.703ms    mgasps=0.000 number=12 hash="791fc7…a169b4" dirty=113.65KiB
+INFO [01-23|10:53:23.837] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.879ms    mgasps=0.000 number=12 hash="0a35a9…fc86cf" dirty=115.29KiB
+INFO [01-23|10:53:24.048] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.325ms    mgasps=0.000 number=12 hash="591703…4e942e" dirty=117.27KiB
+INFO [01-23|10:53:24.405] Commit new mining work                   number=13 sealhash="4ee139…f5e83f" uncles=2 txs=0 gas=0 fees=0 elapsed=2.017s
+INFO [01-23|10:53:24.406] Commit new mining work                   number=13 sealhash="c73fe6…cf0228" uncles=1 txs=0 gas=0 fees=0 elapsed="338.494µs"
+INFO [01-23|10:53:24.406] Commit new mining work                   number=13 sealhash="c73fe6…cf0228" uncles=1 txs=0 gas=0 fees=0 elapsed="287.598µs"
+INFO [01-23|10:53:24.406] Commit new mining work                   number=13 sealhash="c73fe6…cf0228" uncles=1 txs=0 gas=0 fees=0 elapsed="269.768µs"
+INFO [01-23|10:53:24.486] Commit new mining work                   number=13 sealhash="42e03a…cde061" uncles=2 txs=0 gas=0 fees=0 elapsed=79.169ms
+INFO [01-23|10:53:24.644] Chain reorg detected                     number=11 hash="6d02bf…0cb8e8" drop=1 dropfrom="275a28…5a0593" add=2 addfrom="1a440d…fe026f"
+INFO [01-23|10:53:24.644] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.161ms    mgasps=0.000 number=13 hash="1a440d…fe026f" dirty=120.70KiB
+INFO [01-23|10:53:24.645] Commit new mining work                   number=14 sealhash="a08a6c…01c06c" uncles=2 txs=0 gas=0 fees=0 elapsed="330.411µs"
+INFO [01-23|10:53:24.693] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=48.188ms    mgasps=0.000 number=13 hash="f19a02…77506c" dirty=122.50KiB
+INFO [01-23|10:53:24.706] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.404ms    mgasps=0.000 number=13 hash="6fb234…c4f32e" dirty=124.91KiB
+INFO [01-23|10:53:24.959] Chain reorg detected                     number=10 hash="627f61…e6773b" drop=3 dropfrom="1a440d…fe026f" add=4 addfrom="221930…c085d5"
+INFO [01-23|10:53:24.959] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.689ms     mgasps=0.000 number=14 hash="221930…c085d5" dirty=127.88KiB
+INFO [01-23|10:53:24.959] Mining too far in the future             wait=2s
+INFO [01-23|10:53:25.029] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.147ms     mgasps=0.000 number=14 hash="e0a2f2…a7a916" dirty=129.46KiB
+INFO [01-23|10:53:25.486] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.857ms    mgasps=0.000 number=14 hash="6bf8fb…36b5b4" dirty=132.48KiB
+INFO [01-23|10:53:25.818] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.304ms    mgasps=0.000 number=14 hash="35dc4d…eeeef9" dirty=134.88KiB
+INFO [01-23|10:53:25.873] Chain reorg detected                     number=10 hash="627f61…e6773b" drop=4 dropfrom="221930…c085d5" add=4 addfrom="a4434e…d02344"
+INFO [01-23|10:53:25.873] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=15.744ms    mgasps=0.000 number=14 hash="a4434e…d02344" dirty=137.78KiB
+INFO [01-23|10:53:25.886] Chain reorg detected                     number=13 hash="f19a02…77506c" drop=1 dropfrom="a4434e…d02344" add=2 addfrom="6e3ed6…175bcd"
+INFO [01-23|10:53:25.886] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.447ms    mgasps=0.000 number=15 hash="6e3ed6…175bcd" dirty=141.52KiB
+INFO [01-23|10:53:26.108] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.626ms    mgasps=0.000 number=14 hash="7727e6…6eb6a3" dirty=143.65KiB
+INFO [01-23|10:53:26.289] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.399ms    mgasps=0.000 number=14 hash="866ef6…a9b69a" dirty=144.99KiB
+INFO [01-23|10:53:26.972] Commit new mining work                   number=15 sealhash="645e59…864948" uncles=0 txs=0 gas=0 fees=0 elapsed=2.012s
+INFO [01-23|10:53:26.972] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=398.997ms   mgasps=0.000 number=14 hash="c00370…f71b39" dirty=146.33KiB
+INFO [01-23|10:53:26.992] Commit new mining work                   number=15 sealhash="8ac602…7500cf" uncles=1 txs=0 gas=0 fees=0 elapsed=19.774ms
+INFO [01-23|10:53:27.072] Commit new mining work                   number=16 sealhash="74bf35…04794d" uncles=2 txs=0 gas=0 fees=0 elapsed=80.490ms
+INFO [01-23|10:53:27.073] Commit new mining work                   number=16 sealhash="23fae7…1f161e" uncles=2 txs=0 gas=0 fees=0 elapsed="287.225µs"
+INFO [01-23|10:53:27.210] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.056ms    mgasps=0.000 number=14 hash="6141a5…a96357" dirty=148.74KiB
+INFO [01-23|10:53:27.451] Generating DAG in progress               epoch=1 percentage=3 elapsed=15.687s
+INFO [01-23|10:53:27.643] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.124ms    mgasps=0.000 number=15 hash="98aabb…2e48d0" dirty=151.28KiB
+INFO [01-23|10:53:28.267] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.772ms    mgasps=0.000 number=16 hash="1fca1a…ce939c" dirty=154.73KiB
+INFO [01-23|10:53:28.268] Commit new mining work                   number=17 sealhash="b67821…cbab41" uncles=2 txs=0 gas=0 fees=0 elapsed="347.798µs"
+INFO [01-23|10:53:28.378] Chain reorg detected                     number=15 hash="6e3ed6…175bcd" drop=1 dropfrom="1fca1a…ce939c" add=1 addfrom="3c479a…c9c45c"
+INFO [01-23|10:53:28.379] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.091ms    mgasps=0.000 number=16 hash="3c479a…c9c45c" dirty=157.22KiB
+INFO [01-23|10:53:28.379] Commit new mining work                   number=17 sealhash="e7d1c8…41dced" uncles=2 txs=0 gas=0 fees=0 elapsed="408.454µs"
+INFO [01-23|10:53:28.691] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.710ms    mgasps=0.000 number=17 hash="d0297e…b1da75" dirty=161.28KiB
+INFO [01-23|10:53:28.692] Commit new mining work                   number=18 sealhash="7b1fa6…5963c3" uncles=1 txs=0 gas=0 fees=0 elapsed="380.956µs"
+INFO [01-23|10:53:28.808] Successfully sealed new block            number=18 sealhash="7b1fa6…5963c3" hash="c08ac5…ca08cf" elapsed=116.698ms
+INFO [01-23|10:53:28.808] 🔨 mined potential block                  number=18 hash="c08ac5…ca08cf"
+INFO [01-23|10:53:28.813] Mining too far in the future             wait=2s
+INFO [01-23|10:53:28.828] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=14.793ms    mgasps=0.000 number=17 hash="fe5644…22e2dc" dirty=166.27KiB
+INFO [01-23|10:53:28.993] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.922ms    mgasps=0.000 number=18 hash="3ee103…c5bced" dirty=169.79KiB
+INFO [01-23|10:53:29.140] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.105ms    mgasps=0.000 number=18 hash="ebdf5d…4bb3da" dirty=171.91KiB
+INFO [01-23|10:53:29.793] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.445ms    mgasps=0.000 number=18 hash="51f615…5f3470" dirty=173.58KiB
+INFO [01-23|10:53:29.814] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.514ms    mgasps=0.000 number=18 hash="d40bfe…981d9f" dirty=175.25KiB
+INFO [01-23|10:53:29.909] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.164ms    mgasps=0.000 number=18 hash="34d9bb…bace93" dirty=177.01KiB
+INFO [01-23|10:53:29.925] Generating DAG in progress               epoch=1 percentage=4 elapsed=18.160s
+INFO [01-23|10:53:29.980] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.039ms    mgasps=0.000 number=18 hash="195c51…4a5136" dirty=178.24KiB
+INFO [01-23|10:53:30.042] Chain reorg detected                     number=17 hash="d0297e…b1da75" drop=1 dropfrom="c08ac5…ca08cf" add=2 addfrom="cad70a…c5df4b"
+INFO [01-23|10:53:30.042] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=23.871ms    mgasps=0.000 number=19 hash="cad70a…c5df4b" dirty=181.21KiB
+INFO [01-23|10:53:30.171] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.859ms    mgasps=0.000 number=18 hash="7d208c…731b9d" dirty=182.70KiB
+INFO [01-23|10:53:30.820] Commit new mining work                   number=19 sealhash="f62120…f6313e" uncles=0 txs=0 gas=0 fees=0 elapsed=2.006s
+INFO [01-23|10:53:30.820] Commit new mining work                   number=19 sealhash="d179b1…eeecab" uncles=1 txs=0 gas=0 fees=0 elapsed="102.309µs"
+INFO [01-23|10:53:30.900] Commit new mining work                   number=20 sealhash="12ba5b…3cf40c" uncles=0 txs=0 gas=0 fees=0 elapsed=80.072ms
+INFO [01-23|10:53:30.900] Commit new mining work                   number=20 sealhash="12a4dc…cb34a4" uncles=1 txs=0 gas=0 fees=0 elapsed="110.111µs"
+INFO [01-23|10:53:30.940] Commit new mining work                   number=20 sealhash="1f04fd…074083" uncles=2 txs=0 gas=0 fees=0 elapsed=40.061ms
+INFO [01-23|10:53:31.047] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.609ms    mgasps=0.000 number=18 hash="4e9337…028231" dirty=183.34KiB
+INFO [01-23|10:53:31.279] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.920ms    mgasps=0.000 number=20 hash="4581d5…ffb159" dirty=186.12KiB
+INFO [01-23|10:53:31.280] Commit new mining work                   number=21 sealhash="78cd4e…704bac" uncles=2 txs=0 gas=0 fees=0 elapsed="297.108µs"
+INFO [01-23|10:53:31.612] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.858ms    mgasps=0.000 number=21 hash="bc59e6…36758b" dirty=189.67KiB
+INFO [01-23|10:53:31.612] Mining too far in the future             wait=2s
+INFO [01-23|10:53:31.702] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.372ms    mgasps=0.000 number=21 hash="d0f4b7…3cfd84" dirty=191.64KiB
+INFO [01-23|10:53:32.063] Generating DAG in progress               epoch=1 percentage=5 elapsed=20.298s
+INFO [01-23|10:53:32.157] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.098ms    mgasps=0.000 number=21 hash="48317e…30ad93" dirty=193.31KiB
+INFO [01-23|10:53:32.354] Chain reorg detected                     number=20 hash="4581d5…ffb159" drop=1 dropfrom="bc59e6…36758b" add=1 addfrom="9c096b…f25a7c"
+INFO [01-23|10:53:32.354] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.708ms    mgasps=0.000 number=21 hash="9c096b…f25a7c" dirty=195.15KiB
+INFO [01-23|10:53:32.492] Chain reorg detected                     number=20 hash="4581d5…ffb159" drop=1 dropfrom="9c096b…f25a7c" add=1 addfrom="878121…0d6e22"
+INFO [01-23|10:53:32.492] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=15.691ms    mgasps=0.000 number=21 hash="878121…0d6e22" dirty=196.46KiB
+INFO [01-23|10:53:32.505] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.345ms    mgasps=0.000 number=21 hash="0b2ac4…dfec45" dirty=197.56KiB
+INFO [01-23|10:53:32.961] Chain reorg detected                     number=20 hash="4581d5…ffb159" drop=1 dropfrom="878121…0d6e22" add=1 addfrom="431d01…a3b53d"
+INFO [01-23|10:53:32.962] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.450ms    mgasps=0.000 number=21 hash="431d01…a3b53d" dirty=198.66KiB
+INFO [01-23|10:53:33.571] Chain reorg detected                     number=20 hash="4581d5…ffb159" drop=1 dropfrom="431d01…a3b53d" add=1 addfrom="075e2d…7a465c"
+INFO [01-23|10:53:33.571] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=15.618ms    mgasps=0.000 number=21 hash="075e2d…7a465c" dirty=200.46KiB
+INFO [01-23|10:53:33.631] Commit new mining work                   number=22 sealhash="fe9a1b…f1bffc" uncles=0 txs=0 gas=0 fees=0 elapsed=2.018s
+INFO [01-23|10:53:33.631] Commit new mining work                   number=22 sealhash="90002b…8fb0d1" uncles=0 txs=0 gas=0 fees=0 elapsed="446.056µs"
+INFO [01-23|10:53:33.666] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.158ms    mgasps=0.000 number=20 hash="2e53e3…d95733" dirty=203.47KiB
+INFO [01-23|10:53:33.711] Commit new mining work                   number=22 sealhash="ebdf0a…e19f6e" uncles=1 txs=0 gas=0 fees=0 elapsed=79.802ms
+INFO [01-23|10:53:33.712] Commit new mining work                   number=22 sealhash="ebdf0a…e19f6e" uncles=1 txs=0 gas=0 fees=0 elapsed="363.971µs"
+INFO [01-23|10:53:33.712] Commit new mining work                   number=22 sealhash="3878cc…666fd5" uncles=2 txs=0 gas=0 fees=0 elapsed="306.311µs"
+INFO [01-23|10:53:33.712] Commit new mining work                   number=22 sealhash="3878cc…666fd5" uncles=2 txs=0 gas=0 fees=0 elapsed="272.915µs"
+INFO [01-23|10:53:33.752] Commit new mining work                   number=22 sealhash="9f1f17…9fcc46" uncles=2 txs=0 gas=0 fees=0 elapsed="372.765µs"
+INFO [01-23|10:53:34.462] Chain reorg detected                     number=20 hash="4581d5…ffb159" drop=1 dropfrom="075e2d…7a465c" add=2 addfrom="13534a…5bec51"
+INFO [01-23|10:53:34.462] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.696ms    mgasps=0.000 number=22 hash="13534a…5bec51" dirty=207.57KiB
+INFO [01-23|10:53:34.463] Commit new mining work                   number=23 sealhash="7f4ea8…4d45b9" uncles=2 txs=0 gas=0 fees=0 elapsed="289.179µs"
+INFO [01-23|10:53:34.734] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.695ms    mgasps=0.000 number=23 hash="30654d…db5b2b" dirty=210.54KiB
+INFO [01-23|10:53:34.735] Commit new mining work                   number=24 sealhash="ad9759…edb0f6" uncles=2 txs=0 gas=0 fees=0 elapsed="282.032µs"
+INFO [01-23|10:53:35.560] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.315ms    mgasps=0.000 number=24 hash="8f04ae…04394b" dirty=213.87KiB
+INFO [01-23|10:53:35.561] Commit new mining work                   number=25 sealhash="a9722b…373a31" uncles=2 txs=0 gas=0 fees=0 elapsed="315.868µs"
+INFO [01-23|10:53:35.773] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.139ms    mgasps=0.000 number=25 hash="6d1c55…f4fab2" dirty=217.06KiB
+INFO [01-23|10:53:35.746] Generating DAG in progress               epoch=1 percentage=6 elapsed=23.982s
+INFO [01-23|10:53:35.787] Mining too far in the future             wait=2s
+INFO [01-23|10:53:35.984] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.547ms    mgasps=0.000 number=25 hash="6676ff…1f4d8e" dirty=218.67KiB
+INFO [01-23|10:53:36.014] Chain reorg detected                     number=24 hash="8f04ae…04394b" drop=1 dropfrom="6d1c55…f4fab2" add=1 addfrom="67eb36…33ade9"
+INFO [01-23|10:53:36.014] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.775ms    mgasps=0.000 number=25 hash="67eb36…33ade9" dirty=219.97KiB
+INFO [01-23|10:53:36.811] Chain reorg detected                     number=24 hash="8f04ae…04394b" drop=1 dropfrom="67eb36…33ade9" add=1 addfrom="f3ed58…1f3b9d"
+INFO [01-23|10:53:36.811] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.007ms    mgasps=0.000 number=25 hash="f3ed58…1f3b9d" dirty=221.41KiB
+INFO [01-23|10:53:36.851] Chain reorg detected                     number=24 hash="8f04ae…04394b" drop=1 dropfrom="f3ed58…1f3b9d" add=1 addfrom="05c421…faa464"
+INFO [01-23|10:53:36.851] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.833ms    mgasps=0.000 number=25 hash="05c421…faa464" dirty=223.14KiB
+INFO [01-23|10:53:37.381] Chain reorg detected                     number=24 hash="8f04ae…04394b" drop=1 dropfrom="05c421…faa464" add=1 addfrom="a2ba75…d52a83"
+INFO [01-23|10:53:37.381] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.599ms    mgasps=0.000 number=25 hash="a2ba75…d52a83" dirty=224.78KiB
+INFO [01-23|10:53:37.802] ⑂ block became an uncle                  number=18 hash="c08ac5…ca08cf"
+INFO [01-23|10:53:37.802] Commit new mining work                   number=26 sealhash="212217…c93397" uncles=0 txs=0 gas=0 fees=0 elapsed=2.015s
+INFO [01-23|10:53:37.802] Commit new mining work                   number=26 sealhash="127474…3173e6" uncles=1 txs=0 gas=0 fees=0 elapsed="99.054µs"
+INFO [01-23|10:53:37.882] Commit new mining work                   number=26 sealhash="530798…2f9133" uncles=2 txs=0 gas=0 fees=0 elapsed=80.114ms
+INFO [01-23|10:53:37.883] Commit new mining work                   number=26 sealhash="b44dff…f6ec89" uncles=2 txs=0 gas=0 fees=0 elapsed="339.277µs"
+INFO [01-23|10:53:37.883] Commit new mining work                   number=26 sealhash="b44dff…f6ec89" uncles=2 txs=0 gas=0 fees=0 elapsed="188.67µs"
+INFO [01-23|10:53:37.923] Commit new mining work                   number=26 sealhash="b44dff…f6ec89" uncles=2 txs=0 gas=0 fees=0 elapsed=39.490ms
+INFO [01-23|10:53:37.923] Commit new mining work                   number=26 sealhash="84e83d…b19573" uncles=2 txs=0 gas=0 fees=0 elapsed="230.31µs"
+INFO [01-23|10:53:37.996] Chain reorg detected                     number=24 hash="8f04ae…04394b" drop=1 dropfrom="a2ba75…d52a83" add=2 addfrom="bf082d…2ec753"
+INFO [01-23|10:53:37.996] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.485ms     mgasps=0.000 number=26 hash="bf082d…2ec753" dirty=227.41KiB
+INFO [01-23|10:53:37.996] Commit new mining work                   number=27 sealhash="3a76e3…64c0a8" uncles=2 txs=0 gas=0 fees=0 elapsed="264.62µs"
+INFO [01-23|10:53:38.110] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.317ms    mgasps=0.000 number=26 hash="c2d386…733933" dirty=231.04KiB
+INFO [01-23|10:53:38.258] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=28.279ms    mgasps=0.000 number=27 hash="4c311f…b130dd" dirty=234.46KiB
+INFO [01-23|10:53:38.258] Commit new mining work                   number=28 sealhash="9621ee…c77ed9" uncles=2 txs=0 gas=0 fees=0 elapsed="316.567µs"
+INFO [01-23|10:53:38.443] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.965ms    mgasps=0.000 number=28 hash="9f8269…e9e856" dirty=237.36KiB
+INFO [01-23|10:53:38.443] Mining too far in the future             wait=2s
+INFO [01-23|10:53:38.493] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.364ms    mgasps=0.000 number=28 hash="96d59f…5142b3" dirty=238.70KiB
+INFO [01-23|10:53:38.533] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.494ms    mgasps=0.000 number=28 hash="89b166…ad61ae" dirty=240.00KiB
+INFO [01-23|10:53:38.882] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=48.247ms    mgasps=0.000 number=28 hash="26532b…938e68" dirty=241.26KiB
+INFO [01-23|10:53:39.027] Chain reorg detected                     number=27 hash="4c311f…b130dd" drop=1 dropfrom="9f8269…e9e856" add=1 addfrom="cad6d2…8f3e14"
+INFO [01-23|10:53:39.027] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.775ms    mgasps=0.000 number=28 hash="cad6d2…8f3e14" dirty=242.63KiB
+INFO [01-23|10:53:39.387] Generating DAG in progress               epoch=1 percentage=7 elapsed=27.623s
+INFO [01-23|10:53:39.642] Chain reorg detected                     number=27 hash="4c311f…b130dd" drop=1 dropfrom="cad6d2…8f3e14" add=1 addfrom="d04f26…89ced9"
+INFO [01-23|10:53:39.642] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.287ms    mgasps=0.000 number=28 hash="d04f26…89ced9" dirty=244.27KiB
+INFO [01-23|10:53:39.682] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.710ms    mgasps=0.000 number=28 hash="14e93d…a17d09" dirty=245.57KiB
+INFO [01-23|10:53:39.814] Chain reorg detected                     number=27 hash="4c311f…b130dd" drop=1 dropfrom="d04f26…89ced9" add=1 addfrom="4c1ae8…7c14ab"
+INFO [01-23|10:53:39.814] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.671ms    mgasps=0.000 number=28 hash="4c1ae8…7c14ab" dirty=247.01KiB
+INFO [01-23|10:53:39.854] Chain reorg detected                     number=27 hash="4c311f…b130dd" drop=1 dropfrom="4c1ae8…7c14ab" add=1 addfrom="a3aa3c…920319"
+INFO [01-23|10:53:39.854] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.722ms    mgasps=0.000 number=28 hash="a3aa3c…920319" dirty=248.74KiB
+INFO [01-23|10:53:40.263] Chain reorg detected                     number=27 hash="4c311f…b130dd" drop=1 dropfrom="a3aa3c…920319" add=1 addfrom="368be4…13d488"
+INFO [01-23|10:53:40.264] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=49.534ms    mgasps=0.000 number=28 hash="368be4…13d488" dirty=250.11KiB
+INFO [01-23|10:53:40.277] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=13.431ms    mgasps=0.000 number=28 hash="06c015…68726e" dirty=251.78KiB
+INFO [01-23|10:53:40.452] Commit new mining work                   number=29 sealhash="9d4f14…51a7e7" uncles=0 txs=0 gas=0 fees=0 elapsed=2.008s
+INFO [01-23|10:53:40.452] Commit new mining work                   number=29 sealhash="ea95dd…1a103f" uncles=1 txs=0 gas=0 fees=0 elapsed="95.438µs"
+INFO [01-23|10:53:40.552] Commit new mining work                   number=29 sealhash="e0d513…3a2f0a" uncles=2 txs=0 gas=0 fees=0 elapsed=100.275ms
+INFO [01-23|10:53:40.553] Commit new mining work                   number=29 sealhash="e3d6a8…aeef94" uncles=2 txs=0 gas=0 fees=0 elapsed="302.684µs"
+INFO [01-23|10:53:40.553] Commit new mining work                   number=29 sealhash="517885…cabfc0" uncles=2 txs=0 gas=0 fees=0 elapsed="211.024µs"
+INFO [01-23|10:53:40.593] Commit new mining work                   number=29 sealhash="517885…cabfc0" uncles=2 txs=0 gas=0 fees=0 elapsed=39.509ms
+INFO [01-23|10:53:40.593] Commit new mining work                   number=29 sealhash="d2a358…1ec968" uncles=2 txs=0 gas=0 fees=0 elapsed="255.108µs"
+INFO [01-23|10:53:40.628] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.030ms    mgasps=0.000 number=28 hash="1c6106…00f20c" dirty=253.75KiB
+INFO [01-23|10:53:40.633] Commit new mining work                   number=29 sealhash="517885…cabfc0" uncles=2 txs=0 gas=0 fees=0 elapsed="281.057µs"
+INFO [01-23|10:53:40.644] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.630ms    mgasps=0.000 number=29 hash="e7ba8c…b78192" dirty=257.23KiB
+INFO [01-23|10:53:40.645] Commit new mining work                   number=30 sealhash="5d0a2e…6015c1" uncles=2 txs=0 gas=0 fees=0 elapsed="260.421µs"
+INFO [01-23|10:53:41.057] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.504ms    mgasps=0.000 number=30 hash="984c54…445223" dirty=260.69KiB
+INFO [01-23|10:53:41.057] Commit new mining work                   number=31 sealhash="76f9b2…4d9e2c" uncles=2 txs=0 gas=0 fees=0 elapsed="374.851µs"
+INFO [01-23|10:53:41.111] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=53.189ms    mgasps=0.000 number=30 hash="93770a…073428" dirty=264.37KiB
+INFO [01-23|10:53:41.546] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.032ms    mgasps=0.000 number=31 hash="e2b04a…eef874" dirty=267.46KiB
+INFO [01-23|10:53:41.546] Mining too far in the future             wait=2s
+INFO [01-23|10:53:42.274] Chain reorg detected                     number=29 hash="e7ba8c…b78192" drop=2 dropfrom="e2b04a…eef874" add=2 addfrom="5692ad…067b9c"
+INFO [01-23|10:53:42.274] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.844ms    mgasps=0.000 number=31 hash="5692ad…067b9c" dirty=270.71KiB
+INFO [01-23|10:53:42.352] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.984ms    mgasps=0.000 number=31 hash="393343…d56cd6" dirty=273.95KiB
+INFO [01-23|10:53:42.433] Chain reorg detected                     number=30 hash="93770a…073428" drop=1 dropfrom="5692ad…067b9c" add=1 addfrom="985453…8fe7a8"
+INFO [01-23|10:53:42.433] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.007ms    mgasps=0.000 number=31 hash="985453…8fe7a8" dirty=276.91KiB
+INFO [01-23|10:53:42.765] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.816ms    mgasps=0.000 number=31 hash="2b5311…a5c0f4" dirty=278.47KiB
+INFO [01-23|10:53:43.314] Generating DAG in progress               epoch=1 percentage=8 elapsed=31.550s
+INFO [01-23|10:53:43.555] Commit new mining work                   number=32 sealhash="5fc4bb…f00f9e" uncles=2 txs=0 gas=0 fees=0 elapsed=2.008s
+INFO [01-23|10:53:43.555] Commit new mining work                   number=32 sealhash="91dbb8…c5cfde" uncles=2 txs=0 gas=0 fees=0 elapsed="212.742µs"
+INFO [01-23|10:53:43.556] Commit new mining work                   number=32 sealhash="91dbb8…c5cfde" uncles=2 txs=0 gas=0 fees=0 elapsed="233.81µs"
+INFO [01-23|10:53:43.581] Chain reorg detected                     number=30 hash="93770a…073428" drop=1 dropfrom="985453…8fe7a8" add=2 addfrom="cbcf81…e0eedb"
+INFO [01-23|10:53:43.581] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.501ms    mgasps=0.000 number=32 hash="cbcf81…e0eedb" dirty=281.98KiB
+INFO [01-23|10:53:43.581] Commit new mining work                   number=33 sealhash="1617ed…a0bd8b" uncles=2 txs=0 gas=0 fees=0 elapsed="271.435µs"
+INFO [01-23|10:53:43.763] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.976ms    mgasps=0.000 number=33 hash="f6e044…006cab" dirty=285.34KiB
+INFO [01-23|10:53:43.763] Mining too far in the future             wait=2s
+INFO [01-23|10:53:44.277] Chain reorg detected                     number=32 hash="cbcf81…e0eedb" drop=1 dropfrom="f6e044…006cab" add=1 addfrom="4d462e…056218"
+INFO [01-23|10:53:44.277] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.421ms    mgasps=0.000 number=33 hash="4d462e…056218" dirty=286.95KiB
+INFO [01-23|10:53:44.408] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.955ms    mgasps=0.000 number=33 hash="98d5cd…4b386a" dirty=289.34KiB
+INFO [01-23|10:53:44.535] Chain reorg detected                     number=32 hash="cbcf81…e0eedb" drop=1 dropfrom="4d462e…056218" add=1 addfrom="73b1e2…293f0e"
+INFO [01-23|10:53:44.535] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=49.009ms    mgasps=0.000 number=33 hash="73b1e2…293f0e" dirty=291.90KiB
+INFO [01-23|10:53:44.810] Chain reorg detected                     number=32 hash="cbcf81…e0eedb" drop=1 dropfrom="73b1e2…293f0e" add=1 addfrom="01d57f…6e825e"
+INFO [01-23|10:53:44.811] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.902ms    mgasps=0.000 number=33 hash="01d57f…6e825e" dirty=294.37KiB
+INFO [01-23|10:53:44.961] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.445ms    mgasps=0.000 number=33 hash="217e45…637e85" dirty=296.01KiB
+INFO [01-23|10:53:45.012] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.770ms    mgasps=0.000 number=33 hash="6bae90…28792c" dirty=297.38KiB
+INFO [01-23|10:53:45.354] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.047ms    mgasps=0.000 number=33 hash="46fc35…e9893d" dirty=298.02KiB
+INFO [01-23|10:53:45.768] Commit new mining work                   number=34 sealhash="7632dc…ef83e7" uncles=2 txs=0 gas=0 fees=0 elapsed=2.005s
+INFO [01-23|10:53:45.788] Commit new mining work                   number=34 sealhash="951714…5b5078" uncles=2 txs=0 gas=0 fees=0 elapsed=19.760ms
+INFO [01-23|10:53:45.869] Commit new mining work                   number=34 sealhash="6d4ee7…bf1166" uncles=2 txs=0 gas=0 fees=0 elapsed=80.416ms
+INFO [01-23|10:53:45.869] Commit new mining work                   number=34 sealhash="951714…5b5078" uncles=2 txs=0 gas=0 fees=0 elapsed="258.546µs"
+INFO [01-23|10:53:45.938] Successfully sealed new block            number=34 sealhash="951714…5b5078" hash="03d01b…2e2e7f" elapsed=68.574ms
+INFO [01-23|10:53:45.938] 🔨 mined potential block                  number=34 hash="03d01b…2e2e7f"
+INFO [01-23|10:53:45.950] Commit new mining work                   number=35 sealhash="3e3400…d3db47" uncles=2 txs=0 gas=0 fees=0 elapsed="296.213µs"
+INFO [01-23|10:53:45.966] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.335ms    mgasps=0.000 number=34 hash="2b2a82…0a03c4" dirty=304.65KiB
+INFO [01-23|10:53:46.027] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.695ms    mgasps=0.000 number=34 hash="e69fdf…61f638" dirty=307.25KiB
+INFO [01-23|10:53:46.363] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.475ms    mgasps=0.000 number=35 hash="94d825…38ef8b" dirty=311.06KiB
+INFO [01-23|10:53:46.364] Commit new mining work                   number=36 sealhash="8bd83d…ce9f79" uncles=2 txs=0 gas=0 fees=0 elapsed="299.026µs"
+INFO [01-23|10:53:46.417] Chain reorg detected                     number=32 hash="cbcf81…e0eedb" drop=3 dropfrom="94d825…38ef8b" add=3 addfrom="4d431a…05cae1"
+INFO [01-23|10:53:46.417] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=53.108ms    mgasps=0.000 number=35 hash="4d431a…05cae1" dirty=314.69KiB
+INFO [01-23|10:53:46.417] Commit new mining work                   number=36 sealhash="07adb8…c57312" uncles=2 txs=0 gas=0 fees=0 elapsed="296.278µs"
+INFO [01-23|10:53:46.641] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.868ms    mgasps=0.000 number=36 hash="b11ff5…c75165" dirty=317.68KiB
+INFO [01-23|10:53:46.641] Mining too far in the future             wait=2s
+INFO [01-23|10:53:46.903] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.020ms    mgasps=0.000 number=36 hash="4d0f5c…b29633" dirty=319.98KiB
+INFO [01-23|10:53:46.994] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=11.934ms    mgasps=0.000 number=36 hash="2af8d6…c0dca0" dirty=321.93KiB
+INFO [01-23|10:53:47.036] Generating DAG in progress               epoch=1 percentage=9 elapsed=35.272s
+INFO [01-23|10:53:47.074] Chain reorg detected                     number=35 hash="4d431a…05cae1" drop=1 dropfrom="b11ff5…c75165" add=1 addfrom="b6bbbe…b4916a"
+INFO [01-23|10:53:47.074] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.103ms    mgasps=0.000 number=36 hash="b6bbbe…b4916a" dirty=323.67KiB
+INFO [01-23|10:53:47.326] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.193ms    mgasps=0.000 number=35 hash="68b610…3bbb1b" dirty=326.39KiB
+INFO [01-23|10:53:48.006] Got interrupt, shutting down... 
+INFO [01-23|10:53:48.013] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.479ms    mgasps=0.000 number=36 hash="493e44…0b7d13" dirty=328.93KiB
+INFO [01-23|10:53:48.509] HTTP server stopped                      endpoint=[::]:6000
+INFO [01-23|10:53:48.570] Ethereum protocol stopped 
+INFO [01-23|10:53:48.570] Transaction pool stopped 
+INFO [01-23|10:53:48.590] Writing cached state to disk             block=36 hash="b6bbbe…b4916a" root="58da3e…d8deba"
+INFO [01-23|10:53:48.591] Persisted trie from memory database      nodes=105 size=18.71KiB time=1.131766ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=760 livesize=229.22KiB
+INFO [01-23|10:53:48.591] Writing cached state to disk             block=35 hash="4d431a…05cae1" root="28c2ec…28d2f0"
+INFO [01-23|10:53:48.592] Persisted trie from memory database      nodes=10  size=2.69KiB  time="123.389µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=750 livesize=226.53KiB
+INFO [01-23|10:53:48.593] Writing clean trie cache to disk         path=/usr/local/myproj/ethpowLab/datadir_1/geth/triecache threads=2
+INFO [01-23|10:53:48.600] Persisted the clean trie cache           path=/usr/local/myproj/ethpowLab/datadir_1/geth/triecache elapsed=6.836ms
+INFO [01-23|10:53:48.600] Blockchain stopped 
+ERROR[01-23|10:53:48.651] Failed to prepare header for mining      err="unknown ancestor"

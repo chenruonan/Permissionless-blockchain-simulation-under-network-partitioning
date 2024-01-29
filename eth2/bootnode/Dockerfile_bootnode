@@ -1,0 +1,25 @@
+FROM ubuntu:20.04
+
+RUN mkdir -p /usr/local/ethereumLab/bootnode/logs
+# project
+
+WORKDIR /usr/local/ethereumLab/bootnode
+
+# copy shell files
+COPY ./shellFiles/* ./
+COPY ./logs/* ./logs/
+
+# binary 
+COPY ./bin/lighthouse /usr/bin/
+COPY ./bin/bootnode /usr/bin/
+COPY ./bin/lcli /usr/bin/
+
+RUN export PATH=$PATH:/usr/bin
+
+RUN chmod 777 /usr/local/ethereumLab/bootnode/*.sh
+RUN chmod 777 /usr/bin/lighthouse
+RUN chmod 777 /usr/bin/bootnode
+RUN chmod 777 /usr/bin/lcli
+
+ENTRYPOINT ["/usr/local/ethereumLab/bootnode/bootnode_start.sh"]
+

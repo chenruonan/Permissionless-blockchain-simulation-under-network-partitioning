@@ -1,0 +1,50 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract Counter {
+    int256 public counter;
+    int256 public cnt;
+
+    mapping(int256 => int256) public netThresholdMap;
+
+    // 添加一个函数用于在映射中设置值
+    function setThresholdMapping(int256 key, int256 value) public {
+        netThresholdMap[key] = value;
+    }
+
+    // 添加一个函数用于获取映射中的值
+    function getThresholdMapping(int256 key) public view returns (int256) {
+        return netThresholdMap[key];
+    }
+
+    constructor() {
+        counter = 63;
+        cnt=10000000000;
+        setThresholdMapping(1,63);
+        setThresholdMapping(2,63); 
+    }
+
+    function spend(int256 networkId,int256 cost) public {
+        // 首先判断cost是否大于余额值
+        require(cost <= getThresholdMapping(networkId), "Not enough money!");
+        // 若不大于的话则花去cost*ratio的值
+        int256 actualSpendAmount;
+        if (networkId==1){
+            actualSpendAmount=(cost * 47) / 63;
+        }else if (networkId==2){
+            actualSpendAmount=(cost * 16) / 63;
+        }else{
+            revert("Unsupported networkId");
+        }
+        setThresholdMapping(networkId,getThresholdMapping(networkId)-cost);
+        counter-=actualSpendAmount;
+    }
+
+    function decrementCntByOne() public {
+        cnt-=1;
+    }
+
+    function getCounter() public view returns (int256) {
+        return counter; 
+    }
+}

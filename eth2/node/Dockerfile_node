@@ -1,0 +1,35 @@
+FROM ubuntu:20.04
+
+RUN mkdir -p /usr/local/ethereumLab/node/logs
+RUN mkdir -p /usr/local/ethereumLab/node/shellFiles
+RUN mkdir -p /usr/local/ethereumLab/node/nodeSK
+RUN mkdir -p /usr/local/ethereumLab/node/nodes
+
+# project
+
+WORKDIR /usr/local/ethereumLab/node
+
+# copy files
+# COPY ./shellFiles/* ./shellFiles/
+COPY ./nodeSK/* ./nodeSK/
+COPY ./nodes/ ./nodes/
+# COPY ./logs/* ./logs/
+
+# binary
+COPY ./bin/geth /usr/bin/
+COPY ./bin/lighthouse /usr/bin/
+COPY ./bin/lcli /usr/bin/
+RUN export PATH=$PATH:/usr/bin
+# install jq tool
+RUN apt-get update && apt-get install -y curl
+RUN apt-get install -y jq
+# RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+# RUN source $HOME/.cargo/env
+# RUN chmod 777 /usr/local/ethereumLab/node/shellFiles/*.sh
+RUN chmod 777 /usr/bin/geth
+RUN chmod 777 /usr/bin/lighthouse
+RUN chmod 777 /usr/bin/lcli
+
+ENTRYPOINT ["/usr/local/ethereumLab/node/shellFiles/node_start.sh"]
+CMD ["-n","node_num","-e","el_bootnode_address","-i","ip_address","-b","bootnode_enr","genesis.json"]
+
